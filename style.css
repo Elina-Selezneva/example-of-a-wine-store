@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts\Montserrat-Regular.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +45,7 @@ a {
 }
 
 .contener__info {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -91,7 +96,7 @@ a {
 .button {
     height: 50px;
     background: #998431;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -112,7 +117,7 @@ a {
 }
 
 .contener__title_look {
-    font-family: Playfair Display;
+    font-family: Playfair Display, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -123,7 +128,6 @@ a {
     text-align: center;
     margin-top: 60px;
     color: #fff;
-    text-align: center;
 }
 
 .contener__line1 {
@@ -132,7 +136,7 @@ a {
 }
 
 .text {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -214,7 +218,7 @@ a {
     width: 80%;
     padding: 10px 0 10px 30px;
     border-bottom: 1px solid black;
-    font-family: Playfair Display;
+    font-family: Playfair Display, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
